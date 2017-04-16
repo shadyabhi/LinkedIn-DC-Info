@@ -30,9 +30,7 @@
     "minimum_chrome_version": "18",
     "name": "LinkedIn DC [In]fo",
     "permissions": [
-        "tabs",
-        "http://*/*",
-        "https://*/*",
+        "https://www.linkedin.com/*",
         "webRequest"
     ],
     "update_url": "http://clients2.google.com/service/update2/crx",
