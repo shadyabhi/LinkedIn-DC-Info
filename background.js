@@ -21,7 +21,7 @@ chrome.webRequest.onHeadersReceived.addListener(
         }
     },
     {
-        urls: ["https://www.linkedin.com/*"]
+        urls: ["https://*.linkedin.com/*", "https://*.licdn.com/*"]
     },
     ["responseHeaders"]);
 
